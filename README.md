@@ -2,7 +2,7 @@
 Self-Driving Car Engineer Nanodegree Program
 
 In this project I utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
-The Kalman Filter takes the mean and variance for each dimension of the moving object and put them into a “state” vector and “covariance” matrix, respectively. From there, the principle of the Kalman filter is just a cycle of prediction based on previous motion and measurement update based on the sensor belief, from which a compromise is made and a new state vector and covariance matrix are determined. The Extended Kalman Filter simply adapts modifies this simple linear model to account for nonlinear relationships between current/previous states and states/measurements.
+The Kalman Filter takes the mean and variance for each dimension of the moving object and put them into a “state” vector and “covariance” matrix, respectively. From there, the principle of the Kalman filter is just a cycle of prediction based on previous motion and measurement update based on the sensor belief, from which a compromise is made and a new state vector and covariance matrix are determined. The Extended Kalman Filter simply modifies this simple linear model to account for nonlinear relationships between current/previous states and states/measurements.
 
 This project involves the use of a simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
